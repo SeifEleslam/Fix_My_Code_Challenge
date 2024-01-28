@@ -22,14 +22,14 @@ class User():
         """
         self.id = str(uuid.uuid4())
 
-    @property.getter
+    @property
     def password(self):
         """
         Password getter
         """
         return self.__password
 
-    @property.setter
+    @password.setter
     def password(self, pwd):
         """
         Password setter:
